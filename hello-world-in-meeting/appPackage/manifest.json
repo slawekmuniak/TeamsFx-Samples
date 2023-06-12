@@ -25,22 +25,23 @@
     "accentColor": "#FFFFFF",
     "bots": [],
     "composeExtensions": [],
-    "configurableTabs": [
+    "staticTabs": [
         {
-            "configurationUrl": "${{TAB_ENDPOINT}}/index.html#/config",
-            "canUpdateConfiguration": true,
+            "entityId": "index",
+            "name": "My Tab",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
             "scopes": [
                 "team",
                 "groupchat"
-              ],
-              "context": [
+            ],
+            "context": [
                 "meetingChatTab",
                 "meetingDetailsTab",
                 "meetingSidePanel"
-              ]
+            ]
         }
     ],
-    "staticTabs": [],
     "permissions": [
         "identity",
         "messageTeamMembers"
