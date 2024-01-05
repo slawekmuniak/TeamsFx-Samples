@@ -34,7 +34,7 @@ export function Welcome(props) {
         <div className="tabList">
           <TabList selectedValue={selectedValue} onTabSelect={onTabSelect}>
             <Tab id="Local" value="local">
-              1. Build your app locally
+              1. Build your app locally00000000
             </Tab>
             <Tab id="Azure" value="azure">
               2. Provision and Deploy to the Cloud
